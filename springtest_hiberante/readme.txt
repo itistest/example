@@ -1,0 +1,1 @@
+1。spring如何与hibernate整合，只是把SessionFactory交由Spring管理，session的开启和关闭需要编程开启和关闭。

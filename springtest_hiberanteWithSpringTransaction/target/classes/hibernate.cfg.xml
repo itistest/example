@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="show_sql">true</property>
+		<property name="dialect">net.sf.hibernate.dialect.MySQLDialect</property>
+		<property name="jdbc.fetch_size">50</property>
+		<property name="jdbc.batch_size">30</property>
+
+		<mapping class="com.maijunjin.spring.test.hibernate.model.User" />
+	</session-factory>
+</hibernate-configuration>
